@@ -4,15 +4,16 @@ body {
     box-sizing: border-box;
 }
 
+h1,
 h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
+
 header {
     height: 60px;
 }
-
 
 img {
     display: inline-block;
@@ -21,11 +22,11 @@ img {
     margin: 20px;
 }
 
-header li { 
+header li {
     float: right;
     margin-right: 140px;
     margin-top: 20px;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 header ul {
@@ -38,7 +39,6 @@ main {
     margin-right: auto;
     width: 70%;
     max-width: 1000px;
-
 }
 
 footer {
@@ -63,7 +63,17 @@ footer li {
 
 footer ul {
     margin-bottom: 20px;
-    
+}
+
+
+
+.video {
+    width: 550px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    border: 1px solid black;
 }
 
 .signup {
@@ -94,12 +104,12 @@ footer ul {
     margin-top: 100px;
 }
 
-.feature h2{
+.feature h2 {
     display: inline;
 }
 
 .feature {
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
     height: 50px;
     text-align: left;
     line-height: 20px;
@@ -145,9 +155,9 @@ footer ul {
     width: 100px;
     height: 30px;
     border: 1px solid transparent;
-
 }
 
-
-
-
+.product button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+}
