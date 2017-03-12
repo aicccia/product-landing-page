@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="cssreset.css">
     <link rel="stylesheet" href="product-landing-page.css">
@@ -12,12 +13,16 @@
 
 <body>
     <header>
-        <img src="logo.png" alt="shop logo">
-        <ul>
-            <li>Features</li>
-            <li>How it Works</li>
-            <li>Pricing</li>
-        </ul>
+        <!--change list to flex elements in a flex container next to the logo. 
+          Have the flex container drop down to a new level if the window width gets too small-->
+        <div class="img"><img src="logo.png" alt="shop logo"></div>
+        <div class="nav">
+            <ul>
+                <li>Features</li>
+                <li>How it Works</li>
+                <li>Pricing</li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="signup">
@@ -56,8 +61,7 @@
             </div>
         </div>
         <div class="video">
-            <iframe width="550"  height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-                frameborder="0"></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
         </div>
         <div class="pricing">
             <div class="product">
